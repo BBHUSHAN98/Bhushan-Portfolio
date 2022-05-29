@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiFillMail,
+  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -13,16 +14,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Mayur Khachane</h3>
+          <h3>Designed and Developed by Bhushan Badgujar</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} MK</h3>
+          <h3>Copyright © {year} BB</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/MayuR397"
+                href="https://github.com/BBHUSHAN98"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -32,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/mayurkhachane/"
+                href="https://www.linkedin.com/in/bhushanbadgujar/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -42,11 +43,12 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
+                href="https://www.instagram.com/bhushanbadgujar/?hl=en"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillMail />
+              <AiFillInstagram />
               </a>
             </li>
           </ul>

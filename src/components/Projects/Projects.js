@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import reliance from "../../Assets/Projects/reliance.png";
+import Fitmeal from "../../Assets/Projects/Fitmeal.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
 import uboric from "../../Assets/Projects/uboric.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import pepperfry from "../../Assets/Projects/pepperfry.png"
 
 function Projects() {
   return (
@@ -23,23 +24,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={uboric}
+              imgPath={pepperfry}
               isBlog={false}
-              title="Uboric"
-              description="Uboric is a online goods selling website dealing with electronics and daily consumer needs and clothings.You can shop for the desired product right from the comfort of your home and get them delivered straight to your doorstep. Uboric offers you the chance to choose top branded products sitting in the comfort of your homes and just clicking on your requirements to get it delivered at your doorstep. TechStack - JavaScript | HTML | CSS"
-              link="https://github.com/i-am-parihar/Project-"
-              deploy="https://uboricproject.vercel.app/index.html"
+              title="Pepperfry"
+              description="let’s know about Pepperfry. It is an Indian online marketplace for furniture and home décor. The company was formed by Ex-eBay executives Ambareesh Murty and Ashish Shah. They started Pepperfry in Mumbai in 2012. The company is headquartered in Mumbai, Maharashtra, and operates as a subsidiary of Trendsutra Platform Services Private Limited. TechStack - JavaScript | HTML | CSS"
+              link="https://github.com/akhilgonde/Pepper-Fry-Clone/tree/main"
+              deploy="https://rainbow-crostata-a77d7d.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={reliance}
+              imgPath={Fitmeal}
               isBlog={false}
-              title="Reliance Digital"
-              description="reliance Digital is online e-commerce website hich deals with all types of electronic appliances. We have cloned it exactly and the functions are also kept same. Customers shopping online at www.reliancedigital.in can choose to immediately pick up their order from their nearest store with our Pick Up at Store feature or choose Express Delivery, to receive their product within 48 hours. TechStack - JavaScript | HTML | CSS | Mongodb | Express"
-              link="https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-"
-              deploy="https://reliance-digital-clone.herokuapp.com/"
+              title="FitMeals"
+              description="In 2015, Aman, Zeeshan, Bhavyanth and Apoorva Co-Founded Fitmeals India, the first delivery service of its kind in India.The intention was to introduce the concept of healthy eating in Hyderabad where people always associated healthy food with terms like ‘expensive’, ‘boring’ and ’bland’. TechStack - JavaScript | HTML | CSS | Mongodb | Express"
+              link="https://github.com/Arfeen98/FitMealsCLone"
+              deploy="https://flourishing-brigadeiros-066ec5.netlify.app/"
             />
           </Col>
 

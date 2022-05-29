@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.png";
+import myImg from "../../Assets/avatar.jfif";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillMail,
+  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -51,7 +52,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg}  className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -64,7 +65,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/MayuR397"
+                  href="https://github.com/BBHUSHAN98"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,7 +75,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/mayurkhachane/"
+                  href="https://www.linkedin.com/in/bhushanbadgujar/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -84,11 +85,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
+                  href="https://www.instagram.com/bhushanbadgujar/?hl=en" 
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillMail />
+                 <AiFillInstagram />
                 </a>
               </li>
             </ul>

@@ -22,10 +22,10 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> MAYUR KHACHANE</strong>
+                <strong className="main-name"> BHUSHAN BADGUJAR</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 50, paddingTop:10,textAlign: "left" }}>
                 <Type />
               </div>
             </Col>

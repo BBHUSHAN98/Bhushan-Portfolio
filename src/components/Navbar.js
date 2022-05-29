@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+import Bhushanlogo from "../Assets/Bhushanlogo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={Bhushanlogo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://medium.com/@mayurkhachane2012"
+                href="https://medium.com/@bbadgujar100"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -104,7 +104,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/MayuR397/mayurportfolio"
+                href="https://github.com/BBHUSHAN98/Bhushan-Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
