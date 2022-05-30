@@ -2,9 +2,7 @@
   Portfolio Website<br/>
   <a href="https://bhushan-portfolio.vercel.app/" target="_blank">Bhushan Badguhar</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="" />
-</div>
+
 
 <br/>
 
